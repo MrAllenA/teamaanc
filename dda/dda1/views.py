@@ -10,14 +10,7 @@ from firebase_admin import db
 # Create your views here.
 
 config = {
-    "apiKey": "AIzaSyAPppt439TK0Xra0JrUXzPG5Y_nzwjw9VM",
-    "authDomain": "ven-u-book.firebaseapp.com",
-    "projectId": "ven-u-book",
-    "storageBucket": "ven-u-book.appspot.com",
-    "messagingSenderId": "723635461555",
-    "appId": "1:723635461555:web:e02e9de3466872a4867fc6",
-    "measurementId": "G-JC4YK9DC8J",
-    "databaseURL": "https://ven-u-book-default-rtdb.firebaseio.com/"
+
 }
 firebase = pyrebase.initialize_app(config)
 authe = firebase.auth()
